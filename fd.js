@@ -4,7 +4,7 @@ function startCustomCountdown() {
     const secondsInput = document.getElementById('seconds').value || 0;
 
     let totalSeconds = Number(hoursInput) * 3600 + Number(minutesInput) * 60 + Number(secondsInput);
-    const greetingMessage = "Merry Chirstmas";
+    const greetingMessage = "HAPPY NEW YEAR 2025";
     const timerElement = document.getElementById('timer');
     const greetingElement = document.getElementById('greeting');
 
